@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.boardCol {
+
+}
+.boardRow {
+  flex-direction: row;
+  display: flex;
+}
+.boardCell {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* CELL STATUS STYLES */
+.cellInitial {
+  color: #83866e;
+}
+.cellMissed {
+  color: #4b4d41;
+}
+.cellHurt {
+  color: #e3fa44;
+}
+.cellKill {
+  color: #f86a56;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
